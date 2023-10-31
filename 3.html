@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="3.css">
+    <script src="https://kinobox.tv/kinobox.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="film-title">
+        <div class="film-best">Лучший фильм</div>
+        <div class="film-random">Случайный фильм</div>
+        <div class="search">
+          <input type="text" class="search-input" placeholder="Поиск по названию фильма" value="" />
+          <div class="search-btn">ПОИСК</div>
+        </div>
+      
+        <div class="title-block">
+            <h1 class="title"></h1>
+            <h3 class="description"></h3>
+        </div>
+        <div class="films-list hidden" id="films"></div>
+        <div class="film-watch">Смотреть этот фильм!</div>
+        <div class="kinobox_player hidden" style="width: 700px;" id="player">Плеер</div>
+        <div class="films-back hidden">Назад к списку фильмов</div>
+        <div class="scroll-down">&#8659</div>
+      </div>
+
+      <div class="film-poster">
+        <div class="poster"></div>
+        <div class="scroll-up">&#8657</div>
+      </div>
+    </div>
+    <script src="3.js"></script>
+  </body>
+</html>
